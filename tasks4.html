@@ -1,0 +1,7 @@
+<script>
+let s = prompt("Enter string");
+let r = s.split(" ")
+.map(x => x[0].toUpperCase()+x.slice(1))
+.join(" ");
+document.write(r);
+</script>
