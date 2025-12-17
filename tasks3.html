@@ -1,0 +1,10 @@
+<script>
+let s = prompt("Enter sentence");
+let w = s.split(" ");
+let long = w[0];
+
+for(let i of w){
+  if(i.length > long.length) long = i;
+}
+document.write(long);
+</script>
